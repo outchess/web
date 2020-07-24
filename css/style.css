@@ -96,6 +96,21 @@ section h2 span {
 	padding-bottom: 80px;
 }
 
+.video {
+     position: relative;
+     padding-bottom: 56.25%; /*アスペクト比 16:9の場合の縦幅*/
+     height: 0;
+     overflow: hidden;
+}
+ 
+.video iframe {
+     position: absolute;
+     padding: 0 auto;
+     top: 0;
+     left: 0;
+     width: 80%;
+     height: 80%;
+}
 
 /* SEC02 Gallery
 ------------------------------------------------------------*/
