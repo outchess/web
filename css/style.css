@@ -38,7 +38,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 ------------------------------------------------------------*/
 #mainnav a{
 	color: #fff;
-	font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+	font-family:  'Noto Sans JP','Modern Antiqua',serif;
 }
 
 
@@ -55,7 +55,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 /* 共通
 ------------------------------------------------------------*/
 h1, h2{
-	font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+	font-family:  'Noto Sans JP','Modern Antiqua',serif;
 }
 
 img{
@@ -218,7 +218,6 @@ section h2 span {
 	}
 	
 	#content{
-		padding-top 40px;
 		width: 80%;
 	}
 	
