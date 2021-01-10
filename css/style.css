@@ -108,15 +108,20 @@ section h2 span {
      max-width: 100%;
      outline:none
      position: absolute;
-     height:720px;
 }
 
 
-.contentCenter {
+.mainImg {
      text-align: center;
-     max-width:60%;
      margin: 0 auto;
 }
+.contentCenter {
+     text-align: center;
+     margin: 0 auto;
+     max-width:60%;
+}
+
+
 
 /* SEC02 Gallery
 ------------------------------------------------------------*/
