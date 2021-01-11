@@ -98,15 +98,16 @@ section h2 span {
 
 .video {
      position: relative;
+     padding-bottom: 56.25%;
      text-align: center;
-     overflow: hidden;
-     height: 100%;
 }
  
-.video video {
-     margin: 0 auto;
+.video iframe {
+     left: 10%;
+     width: 80%;
+     height: 80%;
      max-width: 100%;
-     outline:none
+     outline:none;
      position: absolute;
 }
 
