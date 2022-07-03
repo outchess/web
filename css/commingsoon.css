@@ -1,0 +1,94 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url(https://fonts.googleapis.com/css?family=Modern+Antiqua);
+
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;}
+ul{list-style:none;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;}
+q:before,q:after{content:'';}
+object,embed{vertical-align:top;}
+legend{display:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+img,abbr,acronym,fieldset{border:0;}
+
+body{
+	-webkit-text-size-adjust:100%;
+	overflow-x: hidden;
+	color: #fff;
+	background: #000;
+}
+
+a{
+	color: #0066ff;
+	text-decoration: none;
+}
+
+a:hover, .active{
+  text-decoration: underline;
+}
+
+a:active, a:focus,input:active, input:focus{outline:0;}
+
+#wrapper{
+        position: relative;
+}
+
+#social{
+  display: inline-block;
+	margin: 0 auto;
+}
+
+.socialItem {
+     margin: 0px;
+		 display: inline;
+		 height: 50%;
+}
+.socialItem a img{
+		 height: 30px;
+}
+
+footer{
+	font-size: 9px;
+}
+/* 共通
+------------------------------------------------------------*/
+h2{
+	font-family: 'Press Start 2P', cursive;
+	font-size: 35px;
+	font-weight: 300;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.mainImg {
+     text-align: center;
+     margin: 0 auto;
+}
+.logo {
+    position: absolute;
+    top:20%;
+    left:50%;
+    transform: translate(-50%,-50%);
+		margin:0px;
+		width:60%;
+}
+.logo img{
+	width:100%;
+	height:auto;
+}
+.mainText {
+	    top:50%;
+			text-align: center;
+}
+
+
+.contentCenter {
+     text-align: center;
+     margin: 20px auto;
+     max-width:60%;
+}
