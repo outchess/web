@@ -39,6 +39,11 @@ a:active, a:focus,input:active, input:focus{outline:0;}
   display: inline-block;
 	margin: 0 auto;
 }
+#cosmoplayerz {
+     text-align: right;
+		 margin-right: 20px;
+		 font-family: 'M PLUS 1', sans-serif;
+}
 
 .socialItem {
      margin: 0px;
